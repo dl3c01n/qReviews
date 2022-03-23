@@ -1,6 +1,12 @@
+Sorry, i'm more comfortable about the back-end parts, not a good front developer :D
 # Introduction
 
 As a student, i wanted to know how people judge me, how they perceive me professionally. For my exams, i could just write "I am a good team mate", which can be true or false. I decided to maybe make a project for my team mates where they can just write what they think about me.
+
+
+# Go further
+
+Maybe integrate this as a Review system about a Product, Website, Movie, or even inside core projects. Rest API can be used standalone and customizable.
 
 # How to run ?
 
