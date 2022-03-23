@@ -13,13 +13,20 @@ Maybe integrate this as a Review system about a Product, Website, Movie, or even
 ### Docker
 
 ```git clone https://github.com/dl3c01n/qReviews.git```
+
 ```cd server```
-```yarn```
-```cd ..```
-```cd client```
+
 ```yarn```
 
+```cd ..```
+
+```cd client```
+
+```yarn```
+
+
 ```docker compose up -d``` (make sure to start docker before ;))
+
 ```cd server```
 
 ###### If you want to run using TypeScript
