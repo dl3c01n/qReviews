@@ -39,15 +39,13 @@ Maybe integrate this as a Review system about a Product, Website, Movie, or even
 
 
 # Features 
-### Current :
+### To come :
+- Register with phone
+- Poll system on reviews
+- Comment on reviews
 - Register
 - Login
 - Add review (One only per user)
 - View review
 - Edit Review
 - Email notification
-
-### To come :
-- Register with phone
-- Poll system on reviews
-- Comment on reviews
