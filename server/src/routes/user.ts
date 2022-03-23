@@ -1,6 +1,7 @@
 import express, { Response, Request } from 'express'
 import { pool } from '../database/Pool'
-import { User } from '../models/User'
+import { User } from '../sqlModels/User'
+
 
 const router = express.Router()
 
