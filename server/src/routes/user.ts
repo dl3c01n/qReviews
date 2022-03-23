@@ -40,4 +40,14 @@ const updateUser = router.put('/update-user',async (req: Request, res: Response)
         return error
     }
 })
-export const UserRoutes = [getUser,updateUser, getUsers, createUser]
+
+const deleteUser = router.delete('/delete-user', async(req: Request, res: Response) => {
+    const client = await pool.connect()
+    try{
+        await client.query('DELETE FROM "User" WHERE id=$1', [req.query.id])
+        return res.send('Deleted!')
+    }catch(e){
+        return e
+    }
+})
+export const UserRoutes = [getUser,updateUser, getUsers, createUser, deleteUser]

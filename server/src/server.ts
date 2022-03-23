@@ -1,6 +1,7 @@
 import express, {Request, Response} from 'express'
 import { AppDataSource } from './data-source'
 import { ErrorRoute } from './routes/error'
+import { ReviewRoutes } from './routes/review'
 import { UserRoutes } from './routes/user'
 const app = express()
 const PORT = 3001
@@ -11,7 +12,7 @@ app.get('/', (_, res: Response) => {
     res.send('Hello from API')
 })
 
-app.use(UserRoutes, ErrorRoute)
+app.use(ReviewRoutes, UserRoutes, ErrorRoute)
 
 
 app.listen(PORT, () => {
