@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+      "coenraads.bracket-pair-colorizer-2",
+      "dbaeumer.vscode-eslint",
+      "streetsidesoftware.code-spell-checker",
+      "esbenp.prettier-vscode",
+      "aaron-bond.better-comments",
+      "dcortes92.freemarker"
+    ]
+  }
