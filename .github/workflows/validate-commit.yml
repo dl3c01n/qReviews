@@ -9,5 +9,5 @@ jobs:
       - name: Validate commit name
         uses: dl3c01n/validate-commit-name@v5
         with:
-          commit-name: ${{ github.event.head_commit.message }}
+          commit-name: '${{ github.event.head_commit.message }}'
      
