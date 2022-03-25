@@ -1,0 +1,13 @@
+name: Run test
+on: [push]
+jobs:
+  deploy-docker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+      - name: Validate commit name
+        uses: dl3c01n/validate-commit-name@v1
+        with:
+          commit-name: ${{ github.event.head_commit.message }}
+     
