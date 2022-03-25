@@ -12,7 +12,7 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.json()) 
 
 app.get('/', (_, res: Response) => {
-    res.send('Nothing Here !')
+    res.send('Nothing Here !!!')
 })
 
 app.use(userRoutes)
