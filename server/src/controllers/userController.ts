@@ -22,7 +22,7 @@ export const getUsers = async (_: any, res: Response) => {
       const user = await findUser(Number(req.query.id))
       res.send(user);
     } catch (err) {
-      return res.send(500)
+      return res.status(500)
     }
   };
   
