@@ -31,7 +31,7 @@ export const getUsers = async (_: any, res: Response) => {
        await destroyUser(Number(req.query.id))
       return res.send('Deleted !')
     }catch(e){
-      return res.send('Error 500')
+      return res.status(500)
     }
   }
 
