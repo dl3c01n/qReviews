@@ -7,7 +7,7 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v2
       - name: Validate commit name
-        uses: dl3c01n/validate-commit-name@v2
+        uses: dl3c01n/validate-commit-name@v3
         with:
           commit-name: ${{ github.event.head_commit.message }}
      
