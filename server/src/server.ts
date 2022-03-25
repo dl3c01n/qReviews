@@ -2,7 +2,7 @@ import express, {Request, Response} from 'express'
 import { userRoutes } from './controllers/userController'
 import { AppDataSource } from './data-source'
 const app = express()
-const PORT = 3001
+const PORT = process.env.PORT || 3001
 AppDataSource.initialize()
     .then(() => {
         // here you can start to work with your database
